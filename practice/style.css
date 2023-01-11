@@ -1,0 +1,9 @@
+body {
+    background-color: purple;
+}
+.resizeSmall{
+    background-color: cornflowerblue;
+}
+.resizeLarge{
+    background-color: yellow;
+}

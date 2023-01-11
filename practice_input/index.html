@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form id="max_form">
+            0~입력한 수 사이에서 랜덤한 숫자를 생성합니다.<input 
+                required
+                maxlength="15" 
+                type="number" 
+                placeholder="whrite number(자연수)" 
+            />  
+        </form>
+        <form id="guess_form">
+            번호를 추측해보세요 : 
+            <input 
+                required
+                maxlength="15" 
+                type="number" 
+                placeholder="0~위에서 입력한 수" 
+            />
+            <button>PLAY</button>  
+        </form>
+  
+    </div>
+    <div class="dp_off">
+        <p>
+            당신의 선택 : , 랜던생성된 숫자 : 
+        </p>
+        <p>
+            
+        </p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
